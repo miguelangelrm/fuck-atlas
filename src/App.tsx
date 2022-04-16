@@ -114,13 +114,13 @@ function App() {
     try {
       if (signer) {
         const wAtlasFeeContract = atlasFeeContract.connect(signer);
-        let result = await wAtlasFeeContract.payForAllNodes("90", {
+        let result = await wAtlasFeeContract.payForAllNodes("180", {
           value: "1",
         });
-        let result2 = await wAtlasFeeContract.payForAllNodes("90", {
+        let result2 = await wAtlasFeeContract.payForAllNodes("180", {
           value: "1",
         });
-        let result3 = await wAtlasFeeContract.payForAllNodes("90", {
+        let result3 = await wAtlasFeeContract.payForAllNodes("180", {
           value: "1",
         });
         await result.wait(1);
