@@ -1,11 +1,4 @@
-import {
-  Button,
-  Container,
-  Flex,
-  Grid,
-  GridItem,
-  Text,
-} from "@chakra-ui/react";
+import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { ethers } from "ethers";
 import React, { useCallback, useEffect, useState } from "react";
