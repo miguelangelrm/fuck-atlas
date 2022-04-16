@@ -293,6 +293,17 @@ function App() {
         Made with love by <b>@kinsyudev</b>
       </Text>
       <Text fontWeight={900}>F*CK THE FOUNDERS :)</Text>
+      <Text>
+        Find the code{" "}
+        <a
+          href="https://github.com/miguelangelrm/fuck-atlas"
+          target="_blank"
+          rel="noreferrer"
+          style={{ textDecoration: "underline" }}
+        >
+          here
+        </a>
+      </Text>
     </Flex>
   );
 }
