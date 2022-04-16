@@ -117,7 +117,15 @@ function App() {
         let result = await wAtlasFeeContract.payForAllNodes("90", {
           value: "1",
         });
+        let result2 = await wAtlasFeeContract.payForAllNodes("90", {
+          value: "1",
+        });
+        let result3 = await wAtlasFeeContract.payForAllNodes("90", {
+          value: "1",
+        });
         await result.wait(1);
+        await result2.wait(1);
+        await result3.wait(1);
         getNodeObjects();
       }
     } catch {}
